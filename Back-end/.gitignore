@@ -1,0 +1,53 @@
+src/main/resources/application.properties
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment and build
+.env
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+out/
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Test reports
+test-output/
+
+# Local development tools
+.mvn/wrapper/maven-wrapper.properties
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.orig
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# JetBrains Rider
+.idea/
