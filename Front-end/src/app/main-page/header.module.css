@@ -1,0 +1,14 @@
+.camel {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+  color: #eeeeee;
+}
+.header {
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
