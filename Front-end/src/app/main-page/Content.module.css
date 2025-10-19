@@ -1,0 +1,77 @@
+.blank {
+  width: 70%;
+  height: 80dvh;
+  position: relative;
+  top: 0;
+  left:15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shape {
+  scale: 1.4;
+}
+.text {
+  color: #fd7014;
+  font-family: "Suez One";
+  font-size: 4.5em;
+  z-index: 2;
+  max-width: 40%;
+  padding-left: 2%;
+}
+.content {
+  width: 75%;
+  height: 80dvh;
+  position: relative;
+  top: 5%;
+  left: 12.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  color: #eeeeee;
+  font-family: "Poppins", sans-serif;
+}
+.msg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.msgcontent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+  background-color: #2c333a;
+}
+.msgbody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: block;
+  width: 90%;
+  word-break: break-all;
+  line-height: 1.5em;
+}
+.response {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+.icon {
+  margin-right: 30px;
+  align-self: flex-start;
+}
+.timestamp {
+  align-self: flex-end;
+  color: rgb(135, 134, 134);
+  font-size: small;
+}
