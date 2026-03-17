@@ -43,7 +43,7 @@ public class SecurityController {
                 .build();
 
         JwtEncoderParameters params = JwtEncoderParameters.from(
-                JwsHeader.with(MacAlgorithm.HS512).build(), claims);
+                JwsHeader.with(MacAlgorithm.HS256).build(), claims);
 
         String token = this.jwtEncoder.encode(params).getTokenValue();
 
